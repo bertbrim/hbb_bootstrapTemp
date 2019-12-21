@@ -191,7 +191,7 @@
 
 #blurb .fas {
   color: #C8A2C8;
-  border: 2px solid #fff;
+  border: 2px solid #C8A2C8;
   padding: 50px;
   border-radius: 50%;
   transition: all .5s ease;
@@ -202,5 +202,14 @@
   color: #1F1277;
 }
 
-
+#blurb .blp {
+  min-height: 125px;
+}
 /* End Blurb Section */
+
+
+/* Services Section */
+
+
+
+/* End Services Section */
