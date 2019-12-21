@@ -70,7 +70,7 @@
 
 /* Jumbotron Section */
 #jumbotron {
-  background: #563D7C;
+  background: linear-gradient(#181174, #731397);
   padding: 100px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -112,7 +112,7 @@
 /* Team Section
 --------------------------------*/
 #team {
-  background: #563D7C;
+  background: linear-gradient(#181174, #731397);
   padding: 80px 0 60px 0;
   color: #fff;
 }
@@ -162,3 +162,45 @@
   font-size: 18px;
   margin: 0 2px;
 }
+/* End Team Section */
+
+
+/* Blurb Section */
+
+#blurb {
+  padding: 100px 0px;
+  background: linear-gradient(#181174, #731397);
+}
+
+
+#blurb .btn-purple {
+  background:#C8A2C8;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.75);
+  transition: all .5s ease;
+}
+
+#blurb .btn-purple:hover {
+  background :#1F1277;
+  color: #C8A2C8;
+ 
+}
+
+#blurb .fas {
+  color: #C8A2C8;
+  border: 2px solid #fff;
+  padding: 50px;
+  border-radius: 50%;
+  transition: all .5s ease;
+}
+
+#blurb .fas:hover {
+  background: #C8A2C8;
+  color: #1F1277;
+}
+
+
+/* End Blurb Section */
